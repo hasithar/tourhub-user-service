@@ -6,7 +6,7 @@ import User from "../models/user.model.js";
 import Role from "../models/role.model.js";
 import { connectTestDB, closeTestDB, clearTestDB } from "./testHelper.mjs";
 
-describe("Profile Endpoints", () => {
+describe("Auth Endpoints", () => {
   // runs once before all tests
   before(async () => {
     await connectTestDB();
